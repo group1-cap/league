@@ -4,6 +4,8 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
+    Art initArt = new Art();
+    initArt.init();
 
         Delay setDelay = new Delay();
         Initiate match = new Initiate();                                                //create new match
